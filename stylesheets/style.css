@@ -60,8 +60,19 @@
     margin-top: 6px;
 }
 
+.profile-content__contact {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
 .profile-content__period {
     display: none;
+}
+
+.profile-content__info{
+    display: none;
+    margin-top: 6px;
 }
 
 .profile-content__institute {
@@ -100,11 +111,18 @@
 
     .profile-content__element-header{
         display: flex;
+        width: 250px;
         justify-content: space-between;
     }
 
     .profile-content__period {
         font-size: 12px;
+        color: #5c6166;
+        display: flex;
+    }
+
+    .profile-content__info {
+        font-size: 18px;
         color: #5c6166;
         display: flex;
     }
