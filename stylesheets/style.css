@@ -23,10 +23,18 @@
 .person-logo {
     border: 4px solid;
     color: rgba(0,0,139);
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 0px 0px 0px 0px;
     width: 70%;
     animation: glow 3s ease alternate;
+}
+
+.person-Certificate {
+    border: 4px solid;
+    color: rgba(0,0,139);
+    border-radius: 5%;
+    margin-right: 50%;
+    width: 30%;
 }
 
 .profile-content {
