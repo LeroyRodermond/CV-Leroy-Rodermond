@@ -7,7 +7,7 @@
 }
 
 .personalia {
-    background-color: #e7e8ec;
+    background-color: #333399;
     width: 60%;
     display: flex;
     margin: 20;
@@ -38,6 +38,13 @@
     color: rgba(65,105,225);
 }
 
+.profile-content__category-head {
+    color: rgba(65,105,225);
+    background-color: #002366;
+    width: 420px;
+    text-align: center;
+}
+
 .profile-content__category--hidden-mobile {
     display: none;
 }
@@ -58,16 +65,19 @@
     font-size: 18px;
     margin-bottom: 2px;
     margin-top: 6px;
+    width: 50%;
 }
 
 .profile-content__contact {
     font-weight: bold;
     font-size: 18px;
     margin-top: 6px;
+    color: #ffffff;
 }
 
 .profile-content__period {
     display: none;
+    width: 50%;
 }
 
 .profile-content__info{
@@ -90,9 +100,11 @@
     .person-name{ /* Staat boven persoon info */
         order: -2;
         height: 20;
+        color: #ffffff;
     }
     .person-info{ /* Persoons informatie locatie */
         order: -1;
+        color: #ffffff;
     }
 
     .profile-content__category--hidden-mobile{
@@ -111,7 +123,13 @@
 
     .profile-content__element-header{
         display: flex;
-        width: 250px;
+        width: 160%;
+        justify-content: space-between;
+    }
+
+    .profile-content__element-ContentHead {
+        display: flex;
+        width: 90%;
         justify-content: space-between;
     }
 
@@ -123,7 +141,7 @@
 
     .profile-content__info {
         font-size: 18px;
-        color: #5c6166;
+        color: #ffffff;
         display: flex;
     }
 
