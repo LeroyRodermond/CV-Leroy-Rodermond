@@ -13,6 +13,7 @@
     margin: 20;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .profile {
@@ -77,9 +78,11 @@
     margin-bottom: 2px;
     margin-top: 6px;
     width: 50%;
+    display: flex;
 }
 
 .profile-content__contact {
+    display: flex;
     font-weight: bold;
     font-size: 18px;
     margin-top: 6px;
@@ -87,12 +90,12 @@
 }
 
 .profile-content__period {
-    display: none;
+    display: flex;
     width: 50%;
 }
 
 .profile-content__info{
-    display: none;
+    display: flex;
     margin-top: 6px;
 }
 
@@ -112,10 +115,12 @@
         order: -2;
         height: 20;
         color: #ffffff;
+        display: flex;
     }
     .person-info{ /* Persoons informatie locatie */
         order: -1;
         color: #ffffff;
+        display: flex;
     }
 
     .profile-content__category--hidden-mobile{
