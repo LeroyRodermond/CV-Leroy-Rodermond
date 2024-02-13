@@ -5,23 +5,36 @@
     border-bottom: white solid 5px;
     flex-direction: row;
     font-family: Arial;
+    height: 10%;
+}
+.Menutitle{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    width: 25%;
+    height: 15%;
+    font-family: Arial;
+    align-items: center;
 }
 
-.Menutitle a{
+.Menutitle {
     display: flex;
     cursor: pointer;
     color: white;
     flex-direction: row;
     margin-left: 5%;
     font-family: Arial;
+    font-size: 32px;
+    align-items: center;
 }
 
-.Menutitle:hover a{
+.Menutitle:hover {
     display: flex;
     color: lightgrey;
     flex-direction: row;
     margin-left: 5%;
     font-family: Arial;
+    align-items: center;
 }
 
 .page {
@@ -329,6 +342,35 @@
     
     .show{
         display: block;
+    }
+
+    .Menutitle{
+        display: flex;
+        cursor: pointer;
+        flex-direction: row;
+        width: 25%;
+        font-family: Arial;
+        align-items: center;
+    }
+    
+    .Menutitle {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        flex-direction: row;
+        margin-left: 5%;
+        font-size: 32px;
+        font-family: Arial;
+        align-items: center;
+    }
+    
+    .Menutitle:hover {
+        display: flex;
+        color: lightgrey;
+        flex-direction: row;
+        margin-left: 5%;
+        font-family: Arial;
+        align-items: center;
     }
     
 }
