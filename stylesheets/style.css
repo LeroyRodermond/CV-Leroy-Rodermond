@@ -7,7 +7,7 @@
     font-family: Arial;
 }
 
-.Menutitle {
+.Menutitle a{
     display: flex;
     cursor: pointer;
     color: white;
@@ -16,7 +16,7 @@
     font-family: Arial;
 }
 
-.Menutitle:hover {
+.Menutitle:hover a{
     display: flex;
     color: lightgrey;
     flex-direction: row;
