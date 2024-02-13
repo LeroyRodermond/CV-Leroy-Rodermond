@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <title>Contactpagina</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="page">
+  <section class="contact">
+
+    <h1 class="HeaderContact">Contact Formulier</h1>
+
+    <form action="" method="post" class="form-contactpagina">
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="name">Voor- en achternaam </label>
+            <input class="ContactBar" type="text" name="name" id="name" required>
+        </div>
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="email">E-mail: </label>
+            <input class="ContactBar" type="email" name="email" id="email">
+        </div>
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="telefoonnummer">Telefoonnummer: </label>
+            <input class="ContactBar" type="text" name="telefoonnummer" id="telefoonnummer" required pattern="[0-6]{2}-[0-9]{8}"> 
+        </div>
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="call-date">Beschikbare datum:</label>
+            <input class="ContactBar"name="call-date" type="date" id="call-date">
+        </div>
+
+        <div class="form-contactpagina__inputs">
+            <input type="submit" value="Verstuur">
+            &nbsp;
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+  </section>
+</div>
+</body>

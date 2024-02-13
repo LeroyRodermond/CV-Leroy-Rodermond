@@ -1,4 +1,28 @@
 /*mobile version*/
+.Menubar {
+    display: flex;
+    background-color: #000080;
+    border-bottom: white solid 5px;
+    flex-direction: row;
+    font-family: Arial;
+}
+
+.Menutitle {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: Arial;
+}
+
+.Menutitle:hover {
+    display: flex;
+    color: lightgrey;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: Arial;
+}
 
 .page {
     display: flex;
@@ -39,6 +63,7 @@
     order: -1;
     color: #ffffff;
     display: flex;
+    margin-top: -3%;
 }
 
 
@@ -63,7 +88,7 @@
 }
 
 .profile-content__category-head {
-    color: rgba(65,105,225);
+    color: white;
     background-color: #002366;
     width: 650px;
     text-align: center;
@@ -193,6 +218,18 @@
         height: 100%;
     }
 
+    .person-name{ /* Staat boven persoon info */
+        order: -2;
+        color: #ffffff;
+        display: flex;
+    }
+    .person-info{ /* Persoons informatie locatie */
+        order: -1;
+        color: #ffffff;
+        display: flex;
+        margin-top: -5%;
+    }
+
     .profile-content__title {
         font-weight: bold;
         font-size: 18px;
@@ -203,7 +240,7 @@
     }
 
     .profile-content__category-head {
-        color: rgba(65,105,225);
+        color: white;
         background-color: #002366;
         width: 420px;
         text-align: center;
