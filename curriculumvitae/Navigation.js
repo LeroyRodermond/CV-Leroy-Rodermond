@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("liveChatButton").addEventListener("click", function() {
-        window.location.href = "livechat.html/chat";
+        window.location.href = "livechat/chat";
     });
 });
