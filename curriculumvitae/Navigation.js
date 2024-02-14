@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("cvButton").addEventListener("click", function() {
-        window.location.href = "cv.html";
+        window.location.href = "index.html";
     });
 
     document.getElementById("contactButton").addEventListener("click", function() {
