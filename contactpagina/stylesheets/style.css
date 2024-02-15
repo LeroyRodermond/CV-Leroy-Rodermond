@@ -1,5 +1,41 @@
 /*mobile version*/
+.Menubar {
+    display: flex;
+    background-color: #292C33;
+    border-bottom: white solid 5px;
+    flex-direction: row;
+    font-family: Arial;
+    height: 10%;
+}
+.Menutitle{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    width: 25%;
+    height: 15%;
+    font-family: Arial;
+    align-items: center;
+}
 
+.Menutitle {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: Arial;
+    font-size: 32px;
+    align-items: center;
+}
+
+.Menutitle:hover {
+    display: flex;
+    color: lightgrey;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: Arial;
+    align-items: center;
+}
 .page {
     display: flex;
     flex-direction: column;
@@ -14,12 +50,12 @@
 }
 .HeaderContact{
     display: flex;
-    background-color: #000080;
+    background-color: #292C33;
     text-align: center;
     color: white;
     flex-direction: row;
     width: 100%;
-    margin: 15px 0px 15px 0px
+    margin: 0px 0px 0px 0px
 }
 
 .form-contactpagina__inputelement{
@@ -92,6 +128,7 @@
     .form-contactpagina {
         display: flex;
         flex-direction: column;
+        margin-top: 2%;
         background-color: #f5f5f5;
         border: 1px solid #dddddd;
         width: 50%;

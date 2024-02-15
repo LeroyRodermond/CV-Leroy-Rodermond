@@ -1,11 +1,31 @@
 /*mobile version*/
 .Menubar {
     display: flex;
-    background-color: #000080;
+    background-color: #292C33;
     border-bottom: white solid 5px;
     flex-direction: row;
     font-family: Arial;
     height: 10%;
+}
+.Headpage {
+    margin-top: 1%;
+    display: flex;
+    background-color: #292C33;
+    border-bottom: white solid 5px;
+    flex-direction: row;
+    font-family: Arial;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.HeaderContact{
+    display: flex;
+    background-color: #292C33;
+    text-align: center;
+    color: white;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px 0px 0px 0px
 }
 .Menutitle{
     display: flex;

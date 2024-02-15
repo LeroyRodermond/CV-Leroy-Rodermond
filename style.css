@@ -1,0 +1,108 @@
+/*mobile version*/
+body {
+    background-color: #1F2022;
+}
+
+.Menubar {
+    display: flex;
+    background-color: #1F2022;
+    border-bottom: white solid 1px;
+    flex-direction: row;
+    font-family: Arial;
+    height: 100%;
+}
+
+.Headpage {
+    margin-top: 0.01%;
+    display: flex;
+    background-color: #1F2022;
+    border-bottom: white solid 1px;
+    flex-direction: row;
+    font-family: Arial;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.logolgh{
+    border-radius: 5%;
+    width: 10%;
+    margin-bottom: 0.5%;
+}
+
+.Lowerpage {
+    margin-top: 0.01%;
+    display: flex;
+    background-color: #1F2022;
+    border-bottom: white solid 1px;
+    flex-direction: row;
+    font-family: Arial;
+    min-height: 30vw;
+    min-width: 100%;
+}
+
+.Menutitle{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    height: 15%;
+    font-family: Arial;
+    align-items: center;
+}
+
+.Menutitle {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Arial;
+    font-size: 32px;
+    align-items: center;
+}
+
+.Menutitle:hover {
+    display: flex;
+    color: lightgrey;
+    flex-direction: row;
+    margin-left: 5%;
+    font-family: Arial;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .Menubar {
+        display: flex;
+        background-color: #1F2022;
+        border-bottom: white solid 0.5px;
+        flex-direction: row;
+        font-family: Arial;
+        height: 100%;
+    }
+    
+    .Headpage {
+        margin-top: 0.01%;
+        display: flex;
+        background-color: #1F2022;
+        border-bottom: white solid 1px;
+        flex-direction: row;
+        font-family: Arial;
+        min-height: 30vw;
+        min-width: 100%;
+    }
+
+    .Lowerpage {
+        margin-top: 0.01%;
+        display: flex;
+        background-color: #1F2022;
+        border-bottom: white solid 1px;
+        flex-direction: row;
+        font-family: Arial;
+        min-height: 30vw;
+        min-width: 100%;
+    }
+}
+
+

@@ -10,24 +10,28 @@
   <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="../Navigation.js"></script>
 </head>
 
 <body>
     <div class="Menubar">
-        <h2 class="Menutitle"><a href="cv.html">Curriculum vitae</a></h2>
-        <h2 class="Menutitle"><a href="contactpagina/contact.html">Contact</a></h2>
-        <h2 class="Menutitle"><a href="livechat.html/chat">Live chat</a></h2>
+        <div class="Menutitle" id="cvButton">Curriculum vitae</div>
+        <div class="Menutitle" id="contactButton">Contact</div>
+        <div class="Menutitle" id="liveChatButton">Live chat</div>
     </div>
+    <h1 class="HeaderContact">Contact Formulier</h1>
 <div class="page">
   <section class="contact">
-
-    <h1 class="HeaderContact">Contact Formulier</h1>
-
     <form action="" method="post" class="form-contactpagina">
 
         <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="name">Voor- en achternaam </label>
-            <input class="ContactBar" type="text" name="name" id="name" required>
+            <label class="ContactTitle" for="name">Voornaam </label>
+            <input class="ContactBar" type="text" name="firstname" id="firstname" required>
+        </div>
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="name">Achternaam </label>
+            <input class="ContactBar" type="text" name="lastname" id="lastname" required>
         </div>
 
         <div class="form-contactpagina__inputelement fx-col">
@@ -41,8 +45,13 @@
         </div>
 
         <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="call-date">Beschikbare datum:</label>
-            <input class="ContactBar"name="call-date" type="date" id="call-date">
+            <label class="ContactTitle" for="call-date">Onderwerp:</label>
+            <input class="ContactBar" type="text" name="onderwerp" id="onderwerp">
+        </div>
+
+        <div class="form-contactpagina__inputelement fx-col">
+            <label class="ContactTitle" for="call-date">Bericht:</label>
+            <textarea class="ContactBar" type="text" name="bericht" id="bericht"></textarea>
         </div>
 
         <div class="form-contactpagina__inputs">
