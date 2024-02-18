@@ -5,8 +5,8 @@ body {
 
 .Menubar {
     display: flex;
-    background-color: #1F2022;
-    border-bottom: white solid 1px;
+    background-color: #1d1e21;
+    border-bottom: white solid 0.2px;
     flex-direction: row;
     font-family: Arial;
     height: 100%;
@@ -21,8 +21,8 @@ body {
 .Headpage {
     margin-top: 0.01%;
     display: flex;
-    background-color: #1F2022;
-    border-bottom: white solid 1px;
+    background-color: #1d1e21;
+    border-bottom: white solid 0.2px;
     flex-direction: row;
     font-family: Arial;
     min-height: 100vh;
@@ -43,8 +43,8 @@ body {
 .Lowerpage {
     margin-top: 0.01%;
     display: flex;
-    background-color: #1F2022;
-    border-bottom: white solid 1px;
+    background-color: #1d1e21;
+    border-bottom: white solid 0.2px;
     flex-direction: row;
     font-family: Arial;
     min-height: 30vw;
@@ -82,12 +82,23 @@ body {
     align-items: center;
 }
 
+.Underpage {
+    margin-top: 0.01%;
+    display: flex;
+    background-color: #1F2022;
+    border-bottom: white solid 1px;
+    flex-direction: row;
+    font-family: Arial;
+    min-height: 40vw;
+    min-width: 100%;
+}
+
 
 @media only screen and (min-width: 800px) {
     .Menubar {
         display: flex;
         background-color: #1F2022;
-        border-bottom: white solid 0.5px;
+        border-bottom: white solid 0.1px;
         flex-direction: row;
         font-family: Arial;
         height: 100%;
@@ -97,7 +108,7 @@ body {
         margin-top: 0.01%;
         display: flex;
         background-color: #1F2022;
-        border-bottom: white solid 1px;
+        border-bottom: white solid 0.1px;
         flex-direction: row;
         font-family: Arial;
         min-height: 30vw;
@@ -130,7 +141,7 @@ body {
         vertical-align: middle;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 32px;
-        color: white;
+        color: #fff;
         width: auto;
         flex-direction: row;
         margin: 0px 0px 0px 0px;
@@ -142,7 +153,7 @@ body {
         vertical-align: middle;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 24px;
-        color: white;
+        color: #fff;
         width: auto;
         flex-direction: row;
         margin: 0px 0px 0px 0px;
@@ -154,7 +165,7 @@ body {
         vertical-align: middle;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 18px;
-        color: white;
+        color: #fff;
         width: auto;
         flex-direction: row;
         margin: 0px 0px 0px 0px;
@@ -163,8 +174,7 @@ body {
     .Headimages {
         margin-top: 0.01%;
         display: flex;
-        background-color: #232023;
-        border-bottom: white solid 1px;
+        background-color: #1F2022;
         flex-direction: row;
         font-family: Arial;
         min-height: 30vw;
@@ -182,8 +192,8 @@ body {
     .Lowerpage {
         margin-top: 0.01%;
         display: flex;
-        background-color: #1F2022;
-        border-bottom: white solid 1px;
+        background-color: #1d1e21;
+        border-bottom: white solid 0.1px;
         flex-direction: row;
         font-family: Arial;
         min-height: 40vw;
@@ -193,8 +203,7 @@ body {
     .Loweraboutme {
         margin-top: 0.01%;
         display: flex;
-        background-color: #1F2022;
-        border-bottom: white solid 1px;
+        background-color: #1d1e21;
         flex-direction: row;
         font-family: Arial;
         min-height: 40vw;
@@ -245,7 +254,7 @@ body {
         vertical-align: middle;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 18px;
-        color: white;
+        color: #fff;
         width: auto;
         flex-direction: row;
         margin-bottom: 5%;
@@ -259,10 +268,25 @@ body {
     .textcheck{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 18px;
-        color: white;
+        color: #fff;
         margin-top: 2%;
         margin-bottom: 2%;
         margin-left: 2%;
+    }
+
+    .Underpage {
+        margin-top: 0.01%;
+        display: flex;
+        background-color: #1d1e21;
+        border-bottom: white solid 0.1px;
+        flex-direction: row;
+        font-family: Arial;
+        min-height: 40vw;
+        min-width: 100%;
+    }
+    
+    .hr {
+        height: 10px;
     }
 }
 

@@ -124,7 +124,7 @@ button {
           .rating input:checked ~ label,
           .rating label:hover,
           .rating label:hover ~ label {
-            color: #6f00ff;
+            color: #ffdf00;
             transition: color 0.3s;
           }
 
@@ -264,7 +264,7 @@ button {
       .rating input:checked ~ label,
       .rating label:hover,
       .rating label:hover ~ label {
-        color: #6f00ff;
+        color: #ffdf00;
         transition: color 0.3s;
       }
 }
