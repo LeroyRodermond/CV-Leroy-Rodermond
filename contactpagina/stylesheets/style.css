@@ -1,13 +1,4 @@
 /*mobile version*/
-.Menutitle{
-    display: flex;
-    cursor: pointer;
-    flex-direction: row;
-    width: 25%;
-    height: 15%;
-    font-family: Arial;
-    align-items: center;
-}
 
 .page {
     display: flex;

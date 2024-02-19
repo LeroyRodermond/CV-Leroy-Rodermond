@@ -288,6 +288,40 @@ body {
     .hr {
         height: 10px;
     }
+
+    .Menutitle2{
+        display: flex;
+        cursor: pointer;
+        flex-direction: row;
+        height: 15%;
+        font-family: Arial;
+        align-items: center;
+    }
+    
+    .Menutitle2 {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        flex-direction: row;
+        margin-left: 5%;
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-family: Arial;
+        font-size: 32px;
+        align-items: center;
+    }
+    
+    .Menutitle2:hover {
+        display: flex;
+        color: lightgrey;
+        flex-direction: row;
+        margin-left: 5%;
+        margin: auto;
+        font-family: Arial;
+        align-items: center;
+    }
+    
 }
 
 
