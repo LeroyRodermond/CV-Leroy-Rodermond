@@ -27,35 +27,34 @@
 <div class="page">
   <section class="contact">
     <form action="" method="post" class="form-contactpagina">
-
-        <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="name">Voornaam </label>
-            <input class="ContactBar" type="text" name="firstname" id="firstname" required>
+        <div class="Devided">
+            <div class="Leftcontact">
+            <div class="form-contactpagina__inputelement fx-col">
+                <input class="ContactBar" type="text" name="firstname" id="firstname" placeholder="Voornaam" required>
+            </div>
+    
+            <div class="form-contactpagina__inputelement fx-col">
+                <input class="ContactBar" type="text" name="lastname" id="lastname" placeholder="Achternaam" required>
+            </div>
+    
+            <div class="form-contactpagina__inputelement fx-col">
+                <input class="ContactBar" type="email" name="email" placeholder="E-mail" id="email">
+            </div>
+    
+            <div class="form-contactpagina__inputelement fx-col">
+                <input class="ContactBar" type="text" name="telefoonnummer" id="telefoonnummer" placeholder="Telefoonnummer" required pattern="[0-6]{2}-[0-9]{8}"> 
+            </div>
+    
+            <div class="form-contactpagina__inputelement fx-col">
+                <input class="ContactBar" type="text" name="onderwerp" placeholder="Onderwerp" id="onderwerp">
+            </div>
         </div>
-
-        <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="name">Achternaam </label>
-            <input class="ContactBar" type="text" name="lastname" id="lastname" required>
+        <div class="Iconemail">
+            <img class="Emailicon" src="../images/Email.png">
         </div>
-
+    </div>
         <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="email">E-mail: </label>
-            <input class="ContactBar" type="email" name="email" id="email">
-        </div>
-
-        <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="telefoonnummer">Telefoonnummer: </label>
-            <input class="ContactBar" type="text" name="telefoonnummer" id="telefoonnummer" required pattern="[0-6]{2}-[0-9]{8}"> 
-        </div>
-
-        <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="call-date">Onderwerp:</label>
-            <input class="ContactBar" type="text" name="onderwerp" id="onderwerp">
-        </div>
-
-        <div class="form-contactpagina__inputelement fx-col">
-            <label class="ContactTitle" for="call-date">Bericht:</label>
-            <textarea class="ContactBar" type="text" name="bericht" id="bericht"></textarea>
+            <textarea class="BerichtBar" type="text" name="bericht" placeholder="Bericht" id="bericht"></textarea>
         </div>
 
         <div class="form-contactpagina__inputs">

@@ -318,6 +318,8 @@ body {
         flex-direction: row;
         margin-left: 5%;
         margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
         font-family: Arial;
         align-items: center;
     }

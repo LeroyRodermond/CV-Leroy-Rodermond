@@ -3,7 +3,7 @@
 .HeaderContact{
     display: flex;
     background-color: #1d1e21;
-    text-align: center;
+    justify-content: center;
     color: white;
     flex-direction: row;
     width: 100%;

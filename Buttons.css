@@ -219,6 +219,8 @@
       .home-button {
         height: 50px;
         margin: 5px;
+        margin-top: 1%;
+        margin-bottom: 1%;
         width: 120px;
         background: #1d1e21;
         -webkit-box-pack: center;
