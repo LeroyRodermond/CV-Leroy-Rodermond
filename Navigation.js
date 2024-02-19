@@ -10,4 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("liveChatButton").addEventListener("click", function() {
         window.location.href = "../livechat/chat.html";
     });
+
+    document.getElementById("getintouchbutton").addEventListener("click", function() {
+        window.location.href = "../contactpagina/contact.html";
+    });
+
+    document.getElementById("gotohomebutton").addEventListener("click", function() {
+        window.location.href = "../index.html";
+    });
 });

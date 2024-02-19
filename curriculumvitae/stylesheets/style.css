@@ -1,12 +1,4 @@
 /*mobile version*/
-.Menubar {
-    display: flex;
-    background-color: #292C33;
-    border-bottom: white solid 5px;
-    flex-direction: row;
-    font-family: Arial;
-    height: 10%;
-}
 .Headpage {
     margin-top: 1%;
     display: flex;
@@ -20,7 +12,7 @@
 
 .HeaderContact{
     display: flex;
-    background-color: #292C33;
+    background-color: #1d1e21;
     text-align: center;
     color: white;
     flex-direction: row;
@@ -33,26 +25,6 @@
     flex-direction: row;
     width: 25%;
     height: 15%;
-    font-family: Arial;
-    align-items: center;
-}
-
-.Menutitle {
-    display: flex;
-    cursor: pointer;
-    color: white;
-    flex-direction: row;
-    margin-left: 5%;
-    font-family: Arial;
-    font-size: 32px;
-    align-items: center;
-}
-
-.Menutitle:hover {
-    display: flex;
-    color: lightgrey;
-    flex-direction: row;
-    margin-left: 5%;
     font-family: Arial;
     align-items: center;
 }
@@ -248,7 +220,7 @@
         margin: 20;
         flex-direction: column;
         align-items: center;
-        height: 100%;
+        min-height: 210vh;
     }
 
     .person-name{ /* Staat boven persoon info */
