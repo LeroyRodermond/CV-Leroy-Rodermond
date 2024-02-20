@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <script src="../Navigation.js"></script>
   <script src="../NavigationOnPage.js"></script>
+  <script src="captcha.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     <h1 class="HeaderContact">Contact Formulier</h1>
 <div class="page">
   <section class="contact">
-    <form action="" method="post" class="form-contactpagina">
+    <form action="../Server/server.js" method="post" class="form-contactpagina" onsubmit="onSubmit(event)">
         <div class="Devided">
             <div class="Leftcontact">
             <div class="form-contactpagina__inputelement fx-col">
@@ -56,6 +57,10 @@
         <div class="form-contactpagina__inputelement fx-col">
             <textarea class="BerichtBar" type="text" name="bericht" placeholder="Bericht" id="bericht"></textarea>
         </div>
+        <div class="form-contactpagina__inputelement fx-col">
+            <input class="Contactcaptcha" type="text" id="captchaInput" placeholder="Voer de CAPTCHA in:" required>
+        </div>
+        <div class="Captchatext" id="captchaDisplay"></div>
 
         <div class="form-contactpagina__inputs">
             <input type="submit" value="Verstuur">

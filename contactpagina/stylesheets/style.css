@@ -83,6 +83,25 @@
     padding-left: 0.5%; 
 }
 
+.Contactcaptcha {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    font-weight: bold;
+    border: 2px solid lightblue;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 100%; 
+    min-height: 25px;
+    resize: none;
+}
+
+.Captchatext {
+    display: flex;
+    font-weight: bold;
+    margin: auto;
+}
+
 .Emailicon {
     border-radius: 10%;
     width: 90%;
