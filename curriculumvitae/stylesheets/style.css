@@ -262,7 +262,7 @@
 
     .profile-content__element-header{
         display: flex;
-        width: 160%;
+        width: 100%;
         justify-content: space-between;
     }
 

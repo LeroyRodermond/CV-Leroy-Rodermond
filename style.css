@@ -11,6 +11,30 @@ body {
     font-family: Arial;
     height: 100%;
 }
+
+.Menuoptions {
+    display: flex;
+    background-color: #1d1e21;
+    flex-direction: row;
+    font-family: Arial;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alingmenttop {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.alingmenttoppages2 {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+
+
 .logolgh{
     border-radius: 5%;
     width: 10%;
@@ -65,10 +89,10 @@ body {
     cursor: pointer;
     color: white;
     flex-direction: row;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-family: Arial;
+    width: auto;
     font-size: 32px;
     align-items: center;
 }
@@ -77,7 +101,6 @@ body {
     display: flex;
     color: lightgrey;
     flex-direction: row;
-    margin-left: 5%;
     font-family: Arial;
     align-items: center;
 }
@@ -97,11 +120,10 @@ body {
 @media only screen and (min-width: 800px) {
     .Menubar {
         display: flex;
-        background-color: #1F2022;
         border-bottom: white solid 0.1px;
         flex-direction: row;
         font-family: Arial;
-        height: 100%;
+        height: 5vw;
     }
     
     .Headpage {
@@ -288,42 +310,6 @@ body {
     .hr {
         height: 10px;
     }
-
-    .Menutitle2{
-        display: flex;
-        cursor: pointer;
-        flex-direction: row;
-        height: 15%;
-        font-family: Arial;
-        align-items: center;
-    }
-    
-    .Menutitle2 {
-        display: flex;
-        cursor: pointer;
-        color: white;
-        flex-direction: row;
-        margin-left: 5%;
-        margin: auto;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        font-family: Arial;
-        font-size: 32px;
-        align-items: center;
-    }
-    
-    .Menutitle2:hover {
-        display: flex;
-        color: lightgrey;
-        flex-direction: row;
-        margin-left: 5%;
-        margin: auto;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        font-family: Arial;
-        align-items: center;
-    }
-    
 }
 
 

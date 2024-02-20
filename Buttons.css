@@ -39,7 +39,7 @@
     line-height: 28px;
     align-items: center;
     position: relative;
-    max-width: 190px;
+    max-width: 100%;
    }
    
    .input {
@@ -145,8 +145,7 @@
         line-height: 28px;
         align-items: center;
         position: relative;
-        max-width: 25%;
-        margin-left: 5%;
+        max-width: 100%;
        }
        
        .input {
@@ -219,7 +218,6 @@
       .home-button {
         height: 50px;
         margin: 5px;
-        margin-top: 1%;
         margin-bottom: 1%;
         width: 120px;
         background: #1d1e21;
