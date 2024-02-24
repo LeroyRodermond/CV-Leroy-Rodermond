@@ -216,6 +216,7 @@
       }
       /* Home Button */
       .home-button {
+        display: flex;
         height: 50px;
         margin: 5px;
         margin-bottom: 1%;
@@ -243,6 +244,7 @@
       }
       
       .home-button:hover {
+        display: flex;
         -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
         box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
         color: #d6d6d6;
@@ -251,6 +253,7 @@
       }
       
       .home-button:active {
+        display: flex;
         -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
         box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
         color: #d6d6d6;

@@ -33,12 +33,12 @@ function onSubmit(event) {
     var correctCaptcha = document.getElementById('captchaInput').getAttribute('data-correct-captcha');
     
     if (captchaInput.toLowerCase() === correctCaptcha.toLowerCase()) {
-        // CAPTCHA correct, voer hier je actie uit, bijvoorbeeld het formulier versturen
+        // CAPTCHA correct, het formulier versturen
         alert("Captcha is correct! Formulier wordt verzonden.");
         form.reset(); // Het formulier wordt geleegd
         displayCaptcha(); // Een nieuwe CAPTCHA wordt gegenereerd
     } else {
-        // CAPTCHA onjuist, toon een foutmelding of neem andere actie
+        // CAPTCHA onjuist, toont foutmelding 
         alert("Onjuiste CAPTCHA, probeer opnieuw!");
         // Genereer een nieuwe CAPTCHA
         displayCaptcha();

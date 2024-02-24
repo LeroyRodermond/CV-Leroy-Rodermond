@@ -49,10 +49,12 @@
     margin-right: 2%;
 }
 .ContactBar::placeholder {
+    display: flex;
     padding-left: 1%; 
 }
 
 .ContactBar:hover {
+    display: flex;
     border: 2px solid white; 
 }
 
@@ -69,17 +71,17 @@
 .BerichtBar{
     display: flex;
     border-radius: 10px;
-    flex-direction: row;
     font-weight: bold;
     border: 2px solid lightblue;
     margin-left: 2%;
     margin-right: 2%;
-    max-width: 95%; 
+    width: 95%; 
     min-height: 100px;
     resize: none;
 }
 
 .BerichtBar::placeholder {
+    display: flex;
     padding-left: 0.5%; 
 }
 
@@ -103,6 +105,7 @@
 }
 
 .Emailicon {
+    display: flex;
     border-radius: 10%;
     width: 90%;
     height: 100%;
@@ -118,12 +121,15 @@
     margin: 15px 0px 15px 0px
 }
 .fx-col{
+    display: flex;
     flex-direction: column;
 }
 
 .form-contactpagina__inputs input[type="submit"],
 .form-contactpagina__inputs input[type="reset"] {
-    background-color: #4169e1; 
+    display: flex;
+    background-color: #4169e1;
+    justify-content: center; 
     text-align: center;
     color: white; 
     border: none; 
@@ -136,13 +142,16 @@
 
 .form-contactpagina__inputs input[type="submit"]:hover,
 .form-contactpagina__inputs input[type="reset"]:hover {
+    display: flex;
     background-color: #1e90ff; 
 }
 
 @media only screen and (min-width: 800px) {
     .form-contactpagina__inputs input[type="submit"],
     .form-contactpagina__inputs input[type="reset"] {
+        display: flex;
         background-color: #4169e1; 
+        justify-content: center;
         text-align: center;
         color: white; 
         border: none;
@@ -155,6 +164,7 @@
 
     .form-contactpagina__inputs input[type="submit"]:hover, 
     .form-contactpagina__inputs input[type="reset"]:hover {
+        display: flex;
         background-color: #1e90ff; 
     }    
 
