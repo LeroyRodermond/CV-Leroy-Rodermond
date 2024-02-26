@@ -103,7 +103,53 @@
     color: #ffdf00;
     transition: color 0.3s;
   }
-
+/* Home Button */
+      .home-button {
+        display: flex;
+        height: 50px;
+        margin: 5px;
+        margin-bottom: 1%;
+        width: 120px;
+        background: #1d1e21;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-family: Consolas, Courier New, monospace;
+        border: solid #404c5d 1px;
+        font-size: 16px;
+        color: rgb(161, 161, 161);
+        -webkit-transition: 500ms;
+        transition: 500ms;
+        border-radius: 5px;
+        background: linear-gradient(145deg, #1d1e21, #212121);
+        -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+        box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+          inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+      }
+      
+      .home-button:hover {
+        display: flex;
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 500ms;
+        transition: 500ms;
+      }
+      
+      .home-button:active {
+        display: flex;
+        -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+        color: #d6d6d6;
+        -webkit-transition: 100ms;
+        transition: 100ms;
+      }
+  
 @media only screen and (min-width: 800px) {
     /* Button Get in Touch */
     .Buttoncontact {
