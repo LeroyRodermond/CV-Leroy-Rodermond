@@ -305,9 +305,6 @@ body {
     min-width: 100%;
 }
 
-.hr {
-    height: 10px;
-}
 
 @media only screen and (min-width: 800px) {
     .Menubar {
@@ -510,10 +507,6 @@ body {
         font-family: Arial;
         min-height: 40vw;
         min-width: 100%;
-    }
-    
-    .hr {
-        height: 10px;
     }
 }
 
