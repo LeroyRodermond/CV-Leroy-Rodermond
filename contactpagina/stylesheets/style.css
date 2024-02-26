@@ -76,7 +76,7 @@
     border: 2px solid lightblue;
     margin-left: 2%;
     margin-right: 2%;
-    width: 90%;
+    max-width: 95%;
     min-height: 100px;
     resize: none;
 }
@@ -195,5 +195,17 @@
         font-family: Arial;
         min-width: 100%;
         max-height: 25vw;
+    }
+
+    .BerichtBar{
+        display: flex;
+        border-radius: 10px;
+        font-weight: bold;
+        border: 2px solid lightblue;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 95%;
+        min-height: 100px;
+        resize: none;
     }
 }
