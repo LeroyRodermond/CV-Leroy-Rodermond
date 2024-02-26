@@ -3,14 +3,14 @@
 .Buttoncontact {
   background-color: #ffffff00;
   color: #fff;
-  width: 10em;
+  width: 12em;
   height: 3em;
   border: #3654ff 0.2em solid;
   border-radius: 10px;
   text-align: center;
   transition: all 0.6s ease;
   margin-top: 1%;
-  font-size: 8px;
+  font-size: 12px;
   align-self: center;
 }
 
