@@ -11,3 +11,6 @@
 // a. onderwerp niet langer dan 200 tekens, b. E-mail, valide emailadres, c. Bericht niet langer dan 600 tekens
 // Na het versturen van het bericht zijn de gegevens niet meer zichtbaar in het formulier (automatische gecleared)
 // De persoonsgegevens worden niet opgeslagen in het systeem
+
+// zorg ervoor dat er een loading gif is die van hidden naar non-hidden gaat wanneer je aan het wachten bent op je response, timer delay
+// wanneer je response hebt zet je hem weer op hidden 

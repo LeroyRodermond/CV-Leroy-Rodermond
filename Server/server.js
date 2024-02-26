@@ -5,17 +5,10 @@ require("dotenv").config();
 
 
 const app = express();
-const port = 3001;
+const port = 3000; // Server gestart op http://localhost:3000
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-
-// Middleware om JSON en URL-encoded body's te verwerken
-
-
-
-
 
 // Route voor het verwerken van het contactformulier
 app.post('/contact', async (req, res) => {
@@ -34,8 +27,8 @@ app.post('/contact', async (req, res) => {
       
     // Bouw het e-mailbericht
     const mailOptions = {
-        from: `"${firstname}, ${lastname}"`,
-        to: 'l.g.h.rodermond@gmail.com',
+        from: `"${email}, ${firstname}, ${lastname}"`,
+        to: 'lrondersteuning@gmail.com',
         subject: `${onderwerp}`,
         text: `
             Naam: ${firstname} ${lastname}
@@ -54,23 +47,11 @@ app.post('/contact', async (req, res) => {
         res.send("succsess")
     } catch(error) {
         console.error(error);
+        res.status(500).send("Er is een fout opgetreden bij het verzenden van het formulier.");
     }
-
-/*
-    // Verstuur de e-mail
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            console.error(error);
-            res.status(500).send('Er is een fout opgetreden bij het versturen van het bericht.');
-        } else {
-            console.log('E-mail verzonden: ' + info.response);
-            res.send('Bericht is verzonden!');
-        }
-    });
-    */
-});
-
+ });
 // Start de server
 app.listen(port, () => {
     console.log(`Server gestart op http://localhost:${port}`);
 });
+

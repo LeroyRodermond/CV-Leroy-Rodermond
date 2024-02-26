@@ -36,7 +36,7 @@ async function onSubmit(event) {
         // CAPTCHA correct, het formulier versturen
         var formData = new FormData(form);
         try {
-            const response = await fetch('http://localhost:3001/contact', {
+            const response = await fetch('http://localhost:3000/contact', {
                 method: 'POST',
                 body: formData
             });
@@ -44,6 +44,8 @@ async function onSubmit(event) {
                 alert("Formulier succesvol verzonden!");
                 form.reset(); // Het formulier wordt geleegd
                 displayCaptcha(); // Een nieuwe CAPTCHA wordt gegenereerd
+    
+                // Voeg hier code toe om de mail te versturen
             } else {
                 throw new Error('Er is een probleem opgetreden bij het verzenden van het formulier.');
             }
