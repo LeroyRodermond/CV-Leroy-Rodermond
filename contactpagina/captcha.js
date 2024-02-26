@@ -26,7 +26,7 @@ window.onload = function() {
     displayCaptcha();
 };
 
-function onSubmit(event) {
+async function onSubmit(event) {
     event.preventDefault();
     var form = document.querySelector('.form-contactpagina');
     var captchaInput = document.getElementById('captchaInput').value;
@@ -34,9 +34,23 @@ function onSubmit(event) {
     
     if (captchaInput.toLowerCase() === correctCaptcha.toLowerCase()) {
         // CAPTCHA correct, het formulier versturen
-        alert("Captcha is correct! Formulier wordt verzonden.");
-        form.reset(); // Het formulier wordt geleegd
-        displayCaptcha(); // Een nieuwe CAPTCHA wordt gegenereerd
+        var formData = new FormData(form);
+        try {
+            const response = await fetch('http://localhost:3001/contact', {
+                method: 'POST',
+                body: formData
+            });
+            if (response.ok) {
+                alert("Formulier succesvol verzonden!");
+                form.reset(); // Het formulier wordt geleegd
+                displayCaptcha(); // Een nieuwe CAPTCHA wordt gegenereerd
+            } else {
+                throw new Error('Er is een probleem opgetreden bij het verzenden van het formulier.');
+            }
+        } catch (error) {
+            console.error(error);
+            alert("Er is een fout opgetreden bij het verzenden van het formulier. Probeer het opnieuw.");
+        }
     } else {
         // CAPTCHA onjuist, toont foutmelding 
         alert("Onjuiste CAPTCHA, probeer opnieuw!");
