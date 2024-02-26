@@ -76,6 +76,7 @@
     border: 2px solid lightblue;
     margin-left: 2%;
     margin-right: 2%;
+    width: 90%;
     min-height: 100px;
     resize: none;
 }
