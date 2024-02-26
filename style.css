@@ -93,7 +93,7 @@ body {
     margin-bottom: 2%;
     font-family: Arial;
     width: auto;
-    font-size: 32px;
+    font-size: 16px;
     align-items: center;
 }
 
@@ -334,6 +334,19 @@ body {
         margin-top: 2%;
         width: 100%;
         text-align: center;
+    }
+
+    .Menutitle {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        flex-direction: row;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: Arial;
+        width: auto;
+        font-size: 32px;
+        align-items: center;
     }
 
     .HeaderLower{
