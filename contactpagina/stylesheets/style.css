@@ -157,12 +157,6 @@
     height: auto;
 }
 
-.forminput {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
 @media only screen and (min-width: 800px) {
     .form-contactpagina__inputs input[type="submit"],
     .form-contactpagina__inputs input[type="reset"] {
